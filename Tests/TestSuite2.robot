@@ -14,7 +14,7 @@ ${ExcelData}
 *** Test Cases ***
 
 Should be able to access "Team" page
-    [tags]  test1
+    [tags]  smoking
     FrontOfficeApp.Go To Landing Page
     FrontOfficeApp.Go To "Team" Page
 

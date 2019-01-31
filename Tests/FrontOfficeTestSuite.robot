@@ -13,7 +13,7 @@ ${ExcelData}
 
 *** Test Cases ***
 Print Values from ExcelFile
-    [tags]  excel
+    [tags]  smokingexcel
     ${ExcelData} =  DataManager.Get CSV Data    ${MyExcelFile}
     Log  ${ExcelData}
     set global variable  ${ExcelData}
