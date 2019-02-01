@@ -27,3 +27,6 @@ Feature1 Created
 
 Feature2 Created
     log  Hello Feature 2
+
+Feature3 Created
+    Log  Feature 2 created
