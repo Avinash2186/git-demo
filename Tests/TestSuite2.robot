@@ -24,3 +24,6 @@ Should be able to access "Home" Page
 
 Feature1 Created
     Log  Feature 1 created
+    
+Feature3 Created
+    Log  Feature 2 created
