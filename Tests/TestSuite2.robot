@@ -22,5 +22,8 @@ Should be able to access "Home" Page
     [tags]  test2
     FrontOfficeApp.Go To Landing Page
 
+Feature1 Created
+    Log  Feature 1 created
+
 Feature2 Created
     log  Hello Feature 2
