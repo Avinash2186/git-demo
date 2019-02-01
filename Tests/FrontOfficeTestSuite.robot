@@ -13,14 +13,14 @@ ${ExcelData}
 
 *** Test Cases ***
 Print Values from ExcelFile
-    [tags]  smokingexcel
+    [tags]  smokingexcelfromgit
     ${ExcelData} =  DataManager.Get CSV Data    ${MyExcelFile}
     Log  ${ExcelData}
     set global variable  ${ExcelData}
    # ${FINAL_EXCEL_DATA} =  ${ExcelData}
 
 Print Each Row of Excel
-    [tags]  excel
+    [tags]  excelfromgit
     FOR  ${i}  IN RANGE  5
        # Do Something    ${i}
         log  ${ExcelData[0]}
