@@ -1,19 +1,11 @@
 *** Settings ***
 
 Resource  ../Resources/FrontOfficeApp.robot
+Resource  ../Resources/DataManager.robot
+Resource  ../Data/InputData.robot
 Resource  ../Resources/CommonWeb.robot
 Test Setup  Begin Web Test
 Test Teardown   End Web Test
-Resource  ../Resources/FrontOfficeApp.robot
-Resource  ../Resources/DataManager.robot
-Resource  ../Data/InputData.robot
-Resource  ../Resources/FrontOfficeApp.robot
-Resource  ../Resources/CommonWeb.robot
-Test Setup  Begin Web Test
-Test Teardown   End Web Test
-Resource  ../Resources/FrontOfficeApp.robot
-Resource  ../Resources/DataManager.robot
-Resource  ../Data/InputData.robot
 *** Variables ***
 ${ExcelData}
 
